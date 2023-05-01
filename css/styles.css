@@ -651,7 +651,7 @@ footer .logo {
   |============================
 */
 .footer-form {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 .footer-headline {
 }
@@ -695,10 +695,9 @@ footer .logo {
   justify-content: center;
   align-items: center;
 
-
   background-color: var(--logo-txt-cl);
   border-color: var(--logo-txt-cl);
-  border-radius: 4px
+  border-radius: 4px;
 }
 
 .footer-form-txt {
@@ -708,11 +707,10 @@ footer .logo {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--btn-txt-cl); 
+  color: var(--btn-txt-cl);
 }
 .footer-form-svg {
   fill: var(--btn-txt-cl);
-
 }
 
 /* Form tags */
@@ -722,11 +720,11 @@ footer .logo {
 
 .modal {
   position: absolute;
-  top: 88px;
+  top: 80px;
   left: calc(50% - 204px);
 
   width: 408px;
-  min-height: 576px;
+  min-height: 584px;
   padding: 24px;
 
   background-color: var(--modal-bg-cl);
@@ -763,6 +761,7 @@ footer .logo {
   /* font-family: var(--primary-font);
 font-style: normal; */
   display: block;
+  margin-top: 24px;
   margin-bottom: 16px;
 
   font-weight: 500;
@@ -792,7 +791,7 @@ font-style: normal; */
 }
 .modal-form-input {
   width: 100%;
-  height: 58px;
+  height: 40px;
   padding: 0 38px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -823,7 +822,7 @@ font-style: normal; */
   fill: var(--logo-txt-cl);
 }
 .modal-form-message {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   display: block;
   width: 360px;
   min-height: 120px;
@@ -851,9 +850,8 @@ font-style: normal; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-
   margin-bottom: 24px;
+  gap: 8px;
 }
 .modal-form-agreement-box {
   appearance: none;
